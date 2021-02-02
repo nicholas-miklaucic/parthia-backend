@@ -1,7 +1,7 @@
 mod battle;
 
-use parthia_lib::fegame::FEGame;
-use parthia_lib::simple_calc::{CombatStats, SpeedDiff};
+use parthia::fegame::FEGame;
+use parthia::simple_calc::{CombatStats, SpeedDiff};
 use battle::Battle;
 
 

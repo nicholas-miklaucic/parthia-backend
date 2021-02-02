@@ -1,13 +1,20 @@
 [package]
-name = "parthia"
+name = "parthia-server"
 version = "0.1.0"
 authors = ["Nicholas Miklaucic <nicholas.miklaucic@gmail.com>"]
 edition = "2018"
+description = "Fire Emblem calculations in Rust, the server edition"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/nicholas-miklaucic/parthia-lib"
+readme = "README.md"
+edition = "2018"
+keywords = ["mathematics", "http", "fun"]
+categories = ["mathematics", "web-programming::http-server"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-parthia-lib = { path = "parthia-lib", version = "0.1.0"}
+parthia = { version = "0.1.0" }
 tokio = { version = "1", features = ["full"] }
 warp = "0.3"
 serde = { version = "1.0.123", features=["derive"] }

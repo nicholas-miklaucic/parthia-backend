@@ -1,8 +1,8 @@
 //! Data structure to represent a single combat calculation.
 
-use parthia_lib::simple_calc::{CombatStats, SpeedDiff, Outcome,
-                               possible_outcomes};
-use parthia_lib::fegame::FEGame;
+use parthia::simple_calc::{CombatStats, SpeedDiff, Outcome,
+                           possible_outcomes};
+use parthia::fegame::FEGame;
 
 use serde::{Deserialize, Serialize};
 
