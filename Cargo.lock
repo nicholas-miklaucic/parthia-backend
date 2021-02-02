@@ -635,24 +635,26 @@ dependencies = [
 [[package]]
 name = "parthia"
 version = "0.1.0"
-dependencies = [
- "env_logger",
- "log",
- "parthia-lib",
- "serde",
- "serde_json",
- "tokio",
- "warp",
-]
-
-[[package]]
-name = "parthia-lib"
-version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "9c47ad3a58064f01e414ba30f465266b80dfdb1798de4a4cd265f0f027bfd98f"
 dependencies = [
  "serde",
  "serde_json",
  "strum",
  "strum_macros",
+]
+
+[[package]]
+name = "parthia-server"
+version = "0.1.0"
+dependencies = [
+ "env_logger",
+ "log",
+ "parthia",
+ "serde",
+ "serde_json",
+ "tokio",
+ "warp",
 ]
 
 [[package]]
