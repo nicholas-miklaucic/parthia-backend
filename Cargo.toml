@@ -5,9 +5,8 @@ authors = ["Nicholas Miklaucic <nicholas.miklaucic@gmail.com>"]
 edition = "2018"
 description = "Fire Emblem calculations in Rust, the server edition"
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/nicholas-miklaucic/parthia-lib"
+repository = "https://github.com/nicholas-miklaucic/parthia-server"
 readme = "README.md"
-edition = "2018"
 keywords = ["mathematics", "http", "fun"]
 categories = ["mathematics", "web-programming::http-server"]
 
